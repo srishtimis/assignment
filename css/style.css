@@ -1,0 +1,64 @@
+h1,h2,h3,h4,h5,h6,p,div,span,a{font-family: 'Poppins', sans-serif;}
+p{font-size: 14px;color: #666; font-weight: 400;}
+     h4{font-size:20px;}
+     /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c58517; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.navbar{border-radius:5px;}
+.navbar-upper{ padding:10px 0px;}
+.input-group-text{background-color:#c58517; color: #fff;}
+.navbar-color{background-color:#e1dad1!important; padding: 0px !important}
+.navbar-color .navbar-collapse .navbar-nav li a{color: #000;font-size: 16px; }
+.navbar-color .navbar-collapse .navbar-nav li a:hover{color:#c88c25;font-size: 16px;}
+.header-search-bar input{    font-size: 14px;}
+.navbar-color .navbar-brand{    background: #c58517;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #fff!important;
+    font-size: 22px;
+    margin-right: 2px;}
+    .pt-1{margin-top:40px;}
+     .banner-sec ul{padding-inline-start: 0px;}
+    .banner-sec ul li{ list-style:none;}
+    .banner-img img {
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+    @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.product-detail h3{padding:10px 20px; background-color: #e1dad1; border-radius: 5px; font-size: 22px; margin-bottom:20px;}
+
+.pro-detail2{margin-top:20px;}
+.icons svg{font-size: 26px; padding-right: 10px;}
+
+@media screen and (max-width:767px){
+  .top-right-header{display:none;}
+  .dropdown-space li a{margin-left:20px;}
+}
